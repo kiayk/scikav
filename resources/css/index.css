@@ -1,0 +1,86 @@
+body {
+    background-color:#34343a;
+  }
+
+#microheader {
+    position: relative;
+    top: 0;
+    text-align: center;
+    background: #34343a;
+    color: lightgray;
+    font-size: 13px
+}
+
+/* Header/Logo Title */
+#header {
+    position: sticky;
+    top: 0;
+    height: auto;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    /* margin-top: -20px; */
+    /* padding: 0; */
+    /* width: 100%; */
+    padding: 0;
+    text-align: center;
+    background: #2f4b60;
+    color: white;
+    font-size: 15px;
+}
+
+.content-wrap {
+    margin-bottom: 100px; /* height of footer */
+}
+
+#footer {
+    position: relative;
+    height: auto;
+    margin-top: 40px;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #34343a;
+    color: white;
+    font-size: 25px;
+}
+
+#content {
+    position: static;
+    width: 800px;
+    margin: auto; 
+    /* border-style: solid;
+    border-color: #aaaaaa; */
+    padding: 20px;
+    background-color: #f5f9ff;
+}
+
+#refrence {
+    position: relative;
+    width: 750px;
+    height: 10%;
+    margin: auto;
+    bottom: 0;
+    background-color: #f5f9ff;
+}
+
+a:link {
+color: blue;
+background-color: transparent;
+text-decoration: none;
+}
+.button {
+    background-color: #1d78d2;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+}
+.button1 {border-radius: 12px;}
