@@ -1,6 +1,21 @@
 body {
-    background-color:#34343a;
+    background-color:#34343a; 
   }
+
+h1 {
+    font-size: 25px;
+    color: #222222
+}
+
+h2 {
+    font-size: 20px;
+    color: #222222
+}
+
+p {
+    font-size: 14px;
+
+}
 
 #microheader {
     position: relative;
@@ -8,7 +23,7 @@ body {
     text-align: center;
     background: #34343a;
     color: lightgray;
-    font-size: 13px
+    font-size: large;
 }
 
 /* Header/Logo Title */
@@ -56,6 +71,8 @@ body {
     border-color: #aaaaaa; */
     padding: 20px;
     background-color: #f5f9ff;
+    font-size: 25px;
+    color: #151515
 }
 
 #refrence {
